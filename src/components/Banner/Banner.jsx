@@ -1,4 +1,3 @@
-import React from "react";
 import BannerImg from "../../assets/women/women2.jpg";
 import { GrSecure } from "react-icons/gr";
 import { IoFastFood } from "react-icons/io5";
@@ -9,7 +8,7 @@ const Banner = () => {
     <div className="min-h-[550px] flex justify-center items-center py-12 sm:py-0">
       <div className="container">
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 items-center">
-          {/* image section */}
+          {/* секція зображення */}
           <div data-aos="zoom-in">
             <img
               src={BannerImg}
@@ -18,34 +17,33 @@ const Banner = () => {
             />
           </div>
 
-          {/* text details section */}
+          {/* секція тексту */}
           <div className="flex flex-col justify-center gap-6 sm:pt-0">
             <h1 data-aos="fade-up" className="text-3xl sm:text-4xl font-bold">
-              Winter Sale upto 50% Off
+              Зимовий розпродаж до 50% знижки
             </h1>
             <p
               data-aos="fade-up"
               className="text-sm text-gray-500 tracking-wide leading-5"
             >
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-              reiciendis inventore iste ratione ex alias quis magni at optio
+              Оновіть свій гардероб разом із ShopBoom! Сучасний вибір для кожного.
             </p>
             <div className="flex flex-col gap-4">
               <div data-aos="fade-up" className="flex items-center gap-4">
                 <GrSecure className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-violet-100 dark:bg-violet-400" />
-                <p>Quality Products</p>
+                <p>Якісні товари</p>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
                 <IoFastFood className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-orange-100 dark:bg-orange-400" />
-                <p>Fast Delivery</p>
+                <p>Швидка доставка</p>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
                 <GiFoodTruck className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-green-100 dark:bg-green-400" />
-                <p>Easy Payment method</p>
+                <p>Зручна оплата</p>
               </div>
               <div data-aos="fade-up" className="flex items-center gap-4">
                 <GiFoodTruck className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-yellow-100 dark:bg-yellow-400" />
-                <p>Get Offers</p>
+                <p>Отримуйте знижки</p>
               </div>
             </div>
           </div>
