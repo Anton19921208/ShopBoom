@@ -13,7 +13,7 @@ import Cart from "./components/Cart/Cart";
 import OrderModal from "./components/OrderModal";
 import ProductModal from "./components/ProductModal";
 
-const SETTINGS_URL = "http://localhost:5000/api/settings";
+const SETTINGS_URL = import.meta.env.VITE_API_URL + "/api/settings";
 
 const App = () => {
   const [cart, setCart] = React.useState([]);

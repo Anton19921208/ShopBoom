@@ -2,7 +2,7 @@ import React from "react";
 import { FaStar } from "react-icons/fa6";
 import PropTypes from "prop-types";
 
-const API_URL = "http://localhost:5000/api/products";
+const API_URL = import.meta.env.VITE_API_URL + "/api/products";
 
 const Products = ({ onAddToCart, onProductClick }) => {
   const [products, setProducts] = React.useState([]);
